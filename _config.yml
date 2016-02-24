@@ -1,8 +1,5 @@
-layout_spectrum: 1
-typography_spectrum: 0.1105137
 color:
   saturation: 1
-  lightness: 1
   brandStrength: 0.6810186
   rhythmicContrast: 1
   brandColors:
@@ -11,4 +8,19 @@ color:
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
+  lightness: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
+typography_spectrum: 0.1105137
 name: 'Alex Armando Torres Photography '
